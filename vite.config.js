@@ -7,9 +7,6 @@ export default defineConfig({
   base: '/partifycarform/',
   build: {
     manifest: true,
-    rollupOptions: {
-      input: './src/main.jsx',
-    },
   },
   server: {
     proxy: {
